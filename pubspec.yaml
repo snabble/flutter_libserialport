@@ -16,7 +16,7 @@ dependencies:
   libserialport:
       git:
         url: https://github.com/ajeeshklr/libserialport.dart.git
-        ref: 86780390398d8ddd7f2979d99a7d663f7d8086af
+        ref: 0bb0409f3c94f931ae78189a8d608f2a72373b80
 
 dev_dependencies:
   flutter_test:
