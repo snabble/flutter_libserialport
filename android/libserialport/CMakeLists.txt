@@ -17,3 +17,4 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE LIBSERIALPORT_ATBUILD)
 target_include_directories(${PROJECT_NAME} PRIVATE
   "${CMAKE_CURRENT_SOURCE_DIR}"
   "${CMAKE_CURRENT_SOURCE_DIR}/${SOURCE_PATH}")
+target_link_options(${PROJECT_NAME} PRIVATE "-Wl,-z,max-page-size=16384,--build-id=none")
