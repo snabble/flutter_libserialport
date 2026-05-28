@@ -8,7 +8,7 @@
 PRODUCT_NAME = flutter_libserialport_example
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = org.sigrok.flutterLibserialPortExample
+PRODUCT_BUNDLE_IDENTIFIER = com.example.flutterLibserialportExample
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2020 org.sigrok. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2025 com.example. All rights reserved.
