@@ -50,7 +50,7 @@ android {
 
 kotlin {
     compilerOptions {
-        jvmTarget = JavaVersion.VERSION_1_8
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_1_8
     }
 }
 
