@@ -1,3 +1,10 @@
+## 0.7.0
+
+* Updates minimum supported SDK version to Flutter 3.44/Dart 3.12
+* Migrates to built-in Kotlin
+* Adds Swift Package Manager support for macOS
+* Move FFI code to this repository for simpler maintenance
+
 ## 0.6.0
 * Add support to Flutter 3.29.0
 * Minor fixes

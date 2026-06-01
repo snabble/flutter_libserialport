@@ -1,0 +1,27 @@
+name: LibSerialPort
+description: >-
+  libserialport: cross-platform library for accessing serial ports
+output: 'lib/src/bindings.dart'
+preamble: |
+  // ignore_for_file: type=lint
+silence-enum-warning: true
+headers:
+  entry-points:
+    - 'third_party/libserialport/libserialport.h'
+structs:
+  include:
+    - 'sp_.*'
+enums:
+  include:
+    - '^sp_mode$'
+    - '^sp_parity$'
+    - '^sp_rts$'
+    - '^sp_cts$'
+    - '^sp_dtr$'
+    - '^sp_dsr$'
+    - '^sp_xonxoff$'
+    - '^sp_flowcontrol$'
+    - '^sp_transport$'
+macros:
+  include:
+    - 'SP_.*'

@@ -8,20 +8,19 @@ repository: https://github.com/jpnurmi/flutter_libserialport
 issue_tracker: https://github.com/jpnurmi/flutter_libserialport/issues
 
 environment:
-  sdk: ">=2.17.0 <4.0.0"
-  flutter: ">=3.0.0"
+  sdk: ">=3.12.0 <4.0.0"
+  flutter: ">=3.44.0"
 
 dependencies:
+  dylib: ^0.3.2
+  ffi: ^2.1.3
   flutter:
     sdk: flutter
-  libserialport:
-      git:
-        url: https://github.com/ajeeshklr/libserialport.dart.git
-        ref: a29ad53d42e73581b5f7090c33cf3e9dc523b274
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  ffigen: ^14.0.0
 
 flutter:
   plugin:
