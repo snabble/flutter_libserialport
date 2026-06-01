@@ -10,12 +10,12 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "flutter_libserialport",
+            name: "flutter-libserialport",
             targets: ["flutter_libserialport"]
         )
     ],
     dependencies: [
-        .package(name: "FlutterFramework", path: "../FlutterMacOS"),
+        .package(name: "FlutterFramework", path: "../FlutterFramework"),
     ],
     targets: [
         .target(
